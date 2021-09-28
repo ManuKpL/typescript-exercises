@@ -4,7 +4,7 @@ import { Sensor } from './Sensor';
 import { TextAudibleAlarm } from './TextAudibleAlarm';
 import { TextView } from './TextView';
 
-class CentralUnit {
+export class CentralUnit {
   // sensor test status options
   public static readonly PASS: string = 'PASS';
   public static readonly FAIL: string = 'FAIL';
