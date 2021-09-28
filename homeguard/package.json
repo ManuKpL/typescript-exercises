@@ -1,0 +1,13 @@
+{
+  "name": "homeguard-ts",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist",
+    "build": "tsc",
+    "dev:build": "tsc --watch"
+  },
+  "dependencies": {
+    "typescript": "^4.4.3"
+  }
+}
