@@ -86,11 +86,9 @@ export class CentralUnit {
       else sensor.reset();
     }
 
-    if (sensor !== null) {
-      //get the message from the sensor and display it
-      const message: string = this.getSensorMessage(sensor);
-      this.view.showMessage(message);
-    }
+    //get the message from the sensor and display it
+    const message: string = this.getSensorMessage(sensor as Sensor);
+    this.view.showMessage(message);
 
     // sound the alarm if armed
     if (this.isArmed()) this.audibleAlarm.sound();
