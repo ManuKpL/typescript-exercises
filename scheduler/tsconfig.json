@@ -5,7 +5,8 @@
     "outDir": "dist",
     "skipLibCheck": true,
     "strict": true,
-    "target": "ESNext"
+    "target": "ESNext",
+    "moduleResolution": "node"
   },
   "include": ["src/**/*"],
   "exclude": ["src/**/*.test.ts"]
